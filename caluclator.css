@@ -1,0 +1,61 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:borderbox;
+}
+body{
+    min-height: 100vh;
+    background: #efeff2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://img.freepik.com/free-vector/low-poly-white-background-design_1017-33204.jpg?w=1060&t=st=1667985466~exp=1667986066~hmac=c8e49fc72af0be5a7c02f585cc2b60ec7e1a6ed5177ac068b13dbf8bbf6cb492");
+    background-size: cover;
+}
+.calculator{
+    width: 300px;
+    height: 500px;
+    box-shadow:  4px 4px  30px rgb(33, 29, 29);
+    background: rgb(10, 24, 10);
+    overflow: hidden;
+    border-radius: 10px;
+
+}
+form input{
+    width:270px;
+    height: 150px;
+    border-radius: 12px;
+    font-size: 2rem;
+    padding: 1rem;
+    color:white;
+    background-color: black;
+    text-align: right;pointer-events: none;
+}
+button{
+    flex: 0 0 22%;
+    margin:5px;
+    border: 1px solid black;
+    width:60px;
+    height: 50px;
+    font-size: 24px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.buttons{
+    padding: 4px;
+}
+.btn-yellow{
+    background-color: yellow;
+}
+.btn-grey{
+    background-color: rgb(32, 143, 49);
+}
+.btn-equal{
+
+    background-color: rgb(90, 84, 179);
+    color: #efeff2;
+}
+.btn-clear{
+    background-color: red;
+}
